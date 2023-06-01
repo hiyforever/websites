@@ -25,6 +25,7 @@
 <p>说明：碰十是个手指游戏，谁先加到十谁赢，请点击双方的手指进行游戏</p>
 <input type="radio" name="diff" checked="checked">普通</input>
 <input type="radio" name="diff">困难</input>
+<input type="radio" name="diff" disabled>联机（施工中）</input>
 <button onclick="imlt.innerHTML=list[0].checked?localStorage.mlts:localStorage.mltn;iult.innerHTML=list[0].checked?localStorage.ults:localStorage.ultn;localStorage.state=list[0].checked;start()">重来</button><br>
 <a id="ista"></a>&nbsp&nbsp当前回合:<a id="ilt"></a><br>最快胜利:<a id="imlt"></a>&nbsp&nbsp最长坚持:<a id="iult"></a><br><br>
 <img id="itb" style="-webkit-transform:scale(1,-1)"><img id="ita" style="-webkit-transform:scale(-1,-1)"><br><br><br>
